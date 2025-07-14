@@ -1,0 +1,25 @@
+@import "tailwindcss";
+/* npx @tailwindcss/cli -i ./src/input.css -o ./public/css/main.css --watch */
+
+@font-face {
+    font-family: poppins-medium;
+    src: url("../public/font/poppins/poppins-medium-webfont.woff2");
+}
+
+@font-face {
+    font-family: poppins-light;
+    src: url("../public/font/poppins/poppins-light-webfont.woff2");
+}
+
+@theme{
+    --font-family-poppins-medium: poppins-medium;
+    --font-family-poppins-light: poppins-light;
+    --shadow-button: 0 4px 8px rgb(0 0 0 / 0.1);
+    --breakpoint-2md: 960px
+}
+
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+}
