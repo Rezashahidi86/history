@@ -1,4 +1,4 @@
-# A histiry
+# A history
 
 A simple website with HTML and Tailwind CSS that includes various sections.
 
